@@ -62,8 +62,9 @@ function eventWeekly(data) {
     weekly.addEventListener('click', function() {
         loadData(setData(data, true, weekCurrent), 600)
         loadData(setData(data, false, weekLast), 300)
-        monthly.classList.add('activated')
+       
         try {
+            monthly.classList.add('activated')
             daily.classList.remove('activated')
             monthly.classList.remove('activated')
             
@@ -77,8 +78,9 @@ function eventMonthly(data) {
     monthly.addEventListener('click', function() {
         loadData(setData(data, true, monthCurrent), 600)
         loadData(setData(data, false, monthLast), 300)
-        weekly.classList.add('activated')
+       
         try {
+            weekly.classList.add('activated')
             weekly.classList.remove('activated')
             daily.classList.remove('activated')
             
