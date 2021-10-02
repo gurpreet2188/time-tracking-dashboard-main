@@ -1,0 +1,68 @@
+// @import "variables";
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: $veryDarkBlue;
+    
+}
+
+h2, h1, h3 {
+    color: #fff;
+    margin: 0;
+}
+.font-margin {
+    margin-bottom: 0.4rem;
+    @include breakpoint-up(large) {
+        margin-bottom: 2.375rem;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    &__cards {
+        font-size: 0.9375rem;
+        margin-bottom: 0.5rem;
+    }
+
+    &__user {
+        margin-bottom: 0.4rem;
+        @include breakpoint-up(large) {
+            margin-bottom: 0.3rem;
+        }
+    }
+}
+.font-size {
+    &__title {
+        font-weight: 400;
+        font-size: 1.4rem;
+        @include breakpoint-up(large) {
+            font-weight: 300;
+            font-size: 2.375rem;
+        }
+        
+    }
+    &__subtitle {
+        margin-top: 0;
+        
+        font-weight: 400;
+        font-size: 0.875rem;
+        color: $paleBlue;
+        opacity: 0.9;
+        @include breakpoint-up(large) {
+            font-size: 0.9375rem;
+        }
+    }
+
+    &__large {
+        font-size: 1.6875rem;
+        @include breakpoint-up(large){
+            font-size: 3rem;
+        }
+     }
+    }
+
+.activated {
+    color: #fff;
+}
+
+a {
+    color: $desaturatedBlue;
+}

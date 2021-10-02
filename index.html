@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+
+  <section class="grid">
+    <div class="grid__user">
+      <div class="grid__user__z1">
+       <div class="grid__user__dp">
+       
+          <img class="grid__user__pic" src="./images/image-jeremy.png" alt="">
+        
+       
+       </div>
+        <div class="grid__user__text">
+        <h4 class="font-size__subtitle font-margin__user">
+          Report for
+        </h4>
+        <h1 class="font-size__title">Jeremy Robson</h1>
+       </div>
+    </div>
+      <div class="grid__user__z0">
+        <a class="daily" href="#">Daily</a>
+        <a class="weekly" href="#">Weekly</a>
+        <a class="monthly" href="#">Monthly</a>
+      </div>
+    </div>
+    
+    <div class="grid__work cards">
+      <a href="#" class=cards__items>
+        <div class="cards__items__item1">
+          <h3 class="font-margin__cards">
+            Work
+          </h3>
+        </div>
+
+        <div class="cards__items__item2">
+          <h2 id="0" class="font-size__title font-size__large current">
+            
+          </h2>
+        </div>
+        <div class="cards__items__item3">
+          <img src="./images/icon-ellipsis.svg" alt="menu">
+        </div>
+        <div class="cards__items__item4">
+          <p id="7" class="font-size__subtitle last">
+           
+            </p>
+        </div>
+    </a>
+    </div>
+     
+    <div class="grid__play cards"> 
+      <a href="#" class=cards__items>
+        <div class="cards__items__item1">
+          <h3 class="font-margin__cards">
+            Play
+          </h3>
+        </div>
+
+        <div class="cards__items__item2">
+          <h2 id="1" class="font-size__title font-size__large current">
+          
+          </h2>
+        </div>
+        <div class="cards__items__item3">
+          <img src="./images/icon-ellipsis.svg" alt="menu">
+        </div>
+        <div class="cards__items__item4">
+          <p id="8" class="font-size__subtitle last">
+          
+            </p>
+        </div>
+    </a>
+    </div>
+
+    <div class="grid__study cards">
+      <a href="#" class=cards__items>
+        <div class="cards__items__item1">
+          <h3 class="font-margin__cards">
+            Study
+          </h3>
+        </div>
+
+        <div class="cards__items__item2">
+          <h2 id="2" class="font-size__title font-size__large current">
+           
+          </h2>
+        </div>
+        <div class="cards__items__item3">
+          <img src="./images/icon-ellipsis.svg" alt="menu">
+        </div>
+        <div class="cards__items__item4">
+          <p id="9" class="font-size__subtitle last">
+            
+            </p>
+        </div>
+    </a>
+    </div>
+    <div class="grid__excercise cards">
+      <a href="#" class=cards__items>
+        <div class="cards__items__item1">
+          <h3 class="font-margin__cards">
+            Excercise
+          </h3>
+        </div>
+
+        <div class="cards__items__item2">
+          <h2 id="3" class="font-size__title font-size__large current">
+           
+          </h2>
+        </div>
+        <div class="cards__items__item3">
+          <img src="./images/icon-ellipsis.svg" alt="menu">
+        </div>
+        <div class="cards__items__item4">
+          <p id="10" class="font-size__subtitle last">
+            
+            </p>
+        </div>
+    </a>
+    </div>
+    <div class="grid__social cards">
+      <a href="#" class=cards__items>
+        <div class="cards__items__item1">
+          <h3 class="font-margin__cards">
+            Social
+          </h3>
+        </div>
+
+        <div class="cards__items__item2">
+          <h2 id="4" class="font-size__title font-size__large current">
+          
+          </h2>
+        </div>
+        <div class="cards__items__item3">
+          <img src="./images/icon-ellipsis.svg" alt="menu">
+        </div>
+        <div class="cards__items__item4">
+          <p id="11" class="font-size__subtitle last">
+          
+            </p>
+        </div>
+    </a>
+    </div>
+    <div class="grid__selfcare cards">
+      <a href="#" class=cards__items>
+        <div class="cards__items__item1">
+          <h3  class="font-margin__cards">
+            Selfcare
+          </h3>
+        </div>
+
+        <div class="cards__items__item2">
+          <h2 id="5" class="font-size__title font-size__large current">
+          
+          </h2>
+        </div>
+        <div class="cards__items__item3">
+          <img src="./images/icon-ellipsis.svg" alt="menu">
+        </div>
+        <div class="cards__items__item4">
+          <p id="12" class="font-size__subtitle last">
+           
+            </p>
+        </div>
+    </a>
+    </div>
+
+  </section>
+
+  <div class="attribution font-size__subtitle">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Gurpreet Singh</a>.
+  </div>
+
+  <script src="./app/js/index.js"></script>
+</body>
+</html>
