@@ -89,7 +89,7 @@ function eventMonthly(data) {
     })
 }
 
-fetch("//")
+fetch("https://raw.githubusercontent.com/gurpreet2188/time-tracking-dashboard-main/master/data.json")
 .then(response => {
     return response.json()
 })
