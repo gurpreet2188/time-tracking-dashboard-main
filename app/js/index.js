@@ -89,7 +89,7 @@ function eventMonthly(data) {
     })
 }
 
-fetch("/")
+fetch("//")
 .then(response => {
     return response.json()
 })
