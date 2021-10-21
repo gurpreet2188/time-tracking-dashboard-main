@@ -95,7 +95,6 @@
                 text-align: left;
             }
             a {
-                // color: $desaturatedBlue;
                 text-decoration: none;
                 margin-bottom: 0;
                 @include breakpoint-up(large) {
@@ -169,10 +168,8 @@
     
 
     &__items {
-        // position: relative;
+      
         display: grid;
-        // align-items: center;
-        // justify-content: center;
         grid-template-columns:45% 55%;
         grid-template-areas: 
         "item1 item3"
@@ -180,7 +177,6 @@
         background-color: $lessDarkBlue;
         height: 7.7rem; 
         border-radius: 1.2rem;
-        // gap: 1rem;
         margin-top: 2.35rem;
         text-decoration: none;
         box-shadow: 0 -0.1875rem 0.5rem rgba(0, 0, 0, 0.2);
@@ -188,7 +184,7 @@
             height: 12.7rem;
             margin-top: 2.56rem;
             grid-template-columns: 1fr;
-            // grid-template-rows: 3fr;
+          
             grid-template-areas: 
         "item1 item3"
         "item2 ."
